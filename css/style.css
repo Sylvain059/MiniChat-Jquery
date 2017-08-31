@@ -1,0 +1,90 @@
+html,
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.utilisateur {
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    height: 100%;
+    margin: 25px;
+}
+
+#affichage {
+    background-color: #000;
+    border-radius: 5px;
+    height: 100%;
+    margin: 25px;
+    width: 50%;
+}
+
+.online {
+    color: chartreuse;
+}
+
+form {
+    text-align: center;
+}
+
+li {
+    color: #000;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    margin: 25px;
+    height: 128px;
+    width: 128px;
+}
+
+p {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    width: 40%;
+}
+
+p:after {
+    bottom: 0;
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}
+
+textarea {
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 50%;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.btn {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
